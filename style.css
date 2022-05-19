@@ -207,7 +207,7 @@ html{
 .why_wireless_area .wirless_content .tab_items_area .imgs_gallery .img_item{
     column-count: 2;
     column-gap: 15px;
-    width: 0px;
+    width: 100%;
     transition: .5s all;
 }
 .why_wireless_area .wirless_content .tab_items_area .imgs_gallery .img_item img{
@@ -215,10 +215,6 @@ html{
     height: auto !important;
     margin-bottom: 15px;
     border-radius: 10px;
-}
-.item_active{
-    width: 100%!important;
-    transition: .5s all;
 }
 
 @media only screen and (max-width: 1050px){
